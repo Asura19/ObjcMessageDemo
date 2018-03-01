@@ -13,11 +13,14 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-//        Dog *dog = [Dog new];
-//        dog.name = @"Kiki";
-//        objc_msgSend(dog, @selector(setName:), @"Kiki");
-//        NSLog(@"%@", dog.name);
-        [Cat.new performSelector:@selector(lalala)];
+        Dog *dog = [Dog new];
+        dog.name = @"Kiki";
+        objc_msgSend(dog, @selector(setName:), @"Kiki");
+        NSLog(@"%@", dog.name);
+//        Cat *cat = Cat.new;
+//        [cat mew];
+//        objc_msgSend(cat, @selector(mew));
+//        [cat performSelector:@selector(lalala)];
     }
     return 0;
 }

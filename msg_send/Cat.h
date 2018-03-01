@@ -10,4 +10,5 @@
 
 @interface Cat : NSObject
 @property (nonatomic, copy) NSString *name;
+- (void)mew;
 @end

@@ -9,5 +9,7 @@
 #import "Cat.h"
 
 @implementation Cat
-
+- (void)mew {
+    NSLog(@"喵~");
+}
 @end
